@@ -1,0 +1,1 @@
+Get-ChildItem -Path C:\users\johnvang\Documents -recurse -include *.jpg, *.jpeg, *.doc, *.docx, *.xls, *.xlsx, *.pdf -name | Out-File C:\Users\johnvang\Desktop\psoutput.txt
